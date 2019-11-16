@@ -2,4 +2,7 @@
     <string name="app_name">My Listener</string>
     <string name="action_settings">Settings</string>
     <string name="voice_message">Voice Your Message</string>
+    <string name="translate">Translate</string>
+    <string name="not_able_to_download">Can\'t download language model</string>
+    <string name="translated_text_will_appear_here">Translated text will appear here</string>
 </resources>

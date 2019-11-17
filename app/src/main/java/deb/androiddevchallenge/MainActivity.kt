@@ -44,11 +44,11 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                     .setSourceLanguage(FirebaseTranslateLanguage.EN)
                     .setTargetLanguage(FirebaseTranslateLanguage.FR)
                     .build()
-                val englishGermanTranslator =
+                val englishFrenchTranslator =
                     FirebaseNaturalLanguage.getInstance().getTranslator(options)
-                englishGermanTranslator.downloadModelIfNeeded()
+                englishFrenchTranslator.downloadModelIfNeeded()
                     .addOnSuccessListener {
-                        englishGermanTranslator.translate(originalText)
+                        englishFrenchTranslator.translate(originalText)
                             .addOnSuccessListener { translatedText ->
                                 // Translation successful.
                                 translatedTextView.text = translatedText
@@ -58,7 +58,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                                 )
                             }
                             .addOnFailureListener { exception ->
-                                // Error.
+                                // Translation Error.
                                 // ...
                                 Log.e(TAG, exception.message)
                                 Toast.makeText(
@@ -72,7 +72,6 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                     }
                     .addOnFailureListener { exception ->
                         // Model couldn’t be downloaded or other internal error.
-                        // ...
                         Log.e(TAG, exception.message)
                     }
 

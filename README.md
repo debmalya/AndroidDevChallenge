@@ -15,7 +15,7 @@ She blends her emotion with intellect. Poems are continuous outcome of the proce
 Is ever increasing. But she cannot hear any of those. She has hearing challenge.
 
 ## Mr Singer (👨‍)
-He sings well. Not only a singer he can tune any poem / lyrics. He has a favourite poet. But he will be not able to see his favourite poet even he/she appears in front of him. He is visually challenged.
+He sings well. Not only a singer, he can tune any poem / lyrics and make tuneful songs. He has a favourite poet. But he will be not able to see his favourite poet even he/she appears in front of him. He is visually challenged.
 
 
 ## On Device Machine Learning
